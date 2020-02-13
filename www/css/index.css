@@ -1,0 +1,30 @@
+
+#main {
+    background-image: url("../img/varios2.jpg");
+   }
+#main #fondo > a > img  {height: 200px;}
+#mian h2{
+    background-color: white;
+}
+#fondo a{
+    position: absolute;
+    /*nos posicionamos en el centro del navegador*/
+    top:40%;
+    width: 100%;
+}
+#img img{
+    width: 100% ;
+}
+#footer a{
+
+    border :solid 3px green;
+    background-color: rgb(185, 235, 110);
+}
+.bkFin{
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    width: 100%;
+}
+.btnFin{
+    color: rgb(185, 235, 110);
+}

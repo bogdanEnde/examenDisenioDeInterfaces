@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'" />
+    <meta name="msapplication-tap-highlight" content="no">
+    <link href="css/jquery.mobile-1.4.5.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery.mobile.external-png-1.4.5.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery.mobile.icons-1.4.5.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery.mobile.inline-png-1.4.5.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery.mobile.inline-svg-1.4.5.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery.mobile.structure-1.4.5.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery.mobile.theme-1.4.5.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+    <div data-role="page" id="main">
+        <div data-role="header" id="banner-main">
+            <h2>INDENTIFICA LOS ANIMALES</h2>
+        </div>
+
+
+
+        <!-- <br><br><br><br><br><br><br><br><br><br> -->
+        <div data-role="container" id="fondo">
+            <a href="#Pet1" data-transition="slide" id="hipnoSapo" class="ui-btn">
+                <img src="img/boton-36.gif">
+            </a>
+        </div>
+
+        <!--fin container -->
+
+
+        <!--fin footer-->
+    </div>
+    <!--fin pagina main-->
+    <!-- pagina pet1-->
+    <div data-role="page" id="Pet1">
+        <div data-role="header" data-position="fixed" data-add-back-btn="true" id="p">
+            <h1>Que animal es?</h1>
+        </div>
+        <div id="img">
+
+        </div>
+        <div data-role="content" id="content">
+            <a href="index.html" data-role="button"  id="R1"></a>
+            <a href="index.html" data-role="button"id="R2"></a>
+            <a href="index.html" data-role="button"id="R3"></a>
+        </div>
+
+
+        <div data-role="footer" id="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="left">
+                <ul>
+                    <li>
+                        <!-- <button data-transition="slide" id="continuar" class="ui-btn botonContinuar">Continuar</button> -->
+                        <!-- <a href="../#Pet1" data-transition="slide" id="continuar" class="ui-btn">Continuar</a> -->
+                        <a href="#Pet1" data-transition="slide" id="continuar" class="ui-icon-arrow-r botonContinuar">Continuar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
